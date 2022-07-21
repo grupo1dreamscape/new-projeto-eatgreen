@@ -1,0 +1,124 @@
+{ "vtex.menu@2.x:menu#Products": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "menu-item#news",
+    "menu-item#promocoes",
+    "menu-item#personalization"
+  ]
+  },
+   "menu-item#news": {
+    "props": {
+    "id": "menu-item-news",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/novidades",
+      "noFollow": true,
+      "tagTitle": "Novidades",
+      "text": "Novidades"
+    }
+  }
+},
+"menu-item#promocoes": {
+  "props": {
+    "id": "menu-item-promocoes",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/promocoes",
+      "noFollow": true,
+      "tagTitle": "Promoções",
+      "text": "Promoções"
+    }
+  }
+},
+"menu-item#personalization": {
+  "props": {
+    "id": "menu-item-personalization",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/personalizacao",
+      "noFollow": true,
+      "tagTitle": "Personalização",
+      "text": "Personalização"
+    }
+  }
+},
+
+"vtex.menu@2.x:menu#footer-decoration": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "menu-item#refeicoes",
+    "menu-item#sobremesas"
+  ]
+},
+
+"menu-item#refeicoes": {
+  "props": {
+    "id": "menu-item-refeicoes",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/search",
+      "noFollow": true,
+      "tagTitle": "Refeições",
+      "text": "Refeições"
+    }
+  }
+},
+
+"menu-item#sobremesas": {
+  "props": {
+    "id": "menu-item-sobremesas",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/sobremesas",
+      "noFollow": true,
+      "tagTitle": "Sobremesas",
+      "text": "Sobremesas"
+    }
+  }
+},
+
+"vtex.menu@2.x:menu#footer-mobile": {
+  "props": {
+    "orientation": "vertical"
+  },
+  "children": [
+    "menu-item#news",
+    "menu-item#promocoes",
+    "menu-item#personalization",
+    "menu-item#refeicoes",
+    "menu-item#sobremesas"
+  ]
+},
+
+  "vtex.menu@2.x:menu#footer-sale-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#news",
+      "menu-item#promocoes",
+      "menu-item#personalization",
+      "menu-item#refeicoes",
+      "menu-item#sobremesas"
+    ]
+  }  
+}
